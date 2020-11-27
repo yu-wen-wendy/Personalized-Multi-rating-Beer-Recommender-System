@@ -6,6 +6,7 @@ Developed a recommender system that can handle multiple ratings by using correla
 
 ## Solution
 
+![This is a alt text.](/images/structure.png "This is a sample image.")
 
 
 ## Related Work
