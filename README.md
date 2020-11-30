@@ -12,21 +12,27 @@ We aimed at finding out reasonable way to deal with multiple ratings, having bet
 ### Methods
 * Two recommendation methods: latent factor and collaborative filtering
 * Compare single-rating algorithm and our suggestion of multi-rating handlings: 
-- Single-rating: Use overall rating
-- Multi-rating: User-preference-based aggregation algorithm
+** Single-rating: Use overall rating
+** Multi-rating: User-preference-based aggregation algorithm
 * Three evaluation methods: Overall RMSE/MAE, Top-N reommendations RMSE/MAE, Hit rate
+
+### Data Description
+* 1.5 million of reviews of...
+* 66,055 beer from...
+* 33,388 users
+* Features: Brewery information, 4 review criteria(Aroma, Appereance, Palate, Taste) + 1 overall, Type(style) of beers, User and beer names.
 
 ### Structure
 
-![This is a alt text.](/images/structure.png "Method")
+![This is a alt text.](/images/structure.png "Solution")
 Create a recommender system that aggregates the result of 4 single-rating recommender system based on each of the beer attributes and their weighted average.
 
 ### Related Work
-Recommendation system has been developed with modern data mining techniques including preprocessing, dimensionality reduction, and various distance metrics. (Mehrbakhsh, 2016)
-Collaborative filtering is the most widely used algorithm for recommendation system.(Badrul Munir, et al., 2001) 
-Latent factor algorithm is derived to overcome the weakness of native collaborative filtering algorithm in dealing with challenging issues such as scalability, noises in dataset, and data sparsity. (Koren, Yehuda, Robert Bell, and Chris Volinsky, 2009)
-Clustering methods are also applicable for picking representative values for recommendation such as k-means and spectral clustering. Especially, there was a trial that used spectral clustering to improve vulnerability of collaborative filtering. (Zhang, Zhuo, and Sanjeev R. Kulkarni, 2014)
-Graph representation also has contributed to recommendation system. Link analysis and prediction also has contributed to recommendation system, to solve data sparsity problem. (Chen, Hsinchun, Xin Li, and Zan Huan, 2005) 
+* Recommendation system has been developed with modern data mining techniques including preprocessing, dimensionality reduction, and various distance metrics. (Mehrbakhsh, 2016)
+* Collaborative filtering is the most widely used algorithm for recommendation system.(Badrul Munir, et al., 2001) 
+* Latent factor algorithm is derived to overcome the weakness of native collaborative filtering algorithm in dealing with challenging issues such as scalability, noises in dataset, and data sparsity. (Koren, Yehuda, Robert Bell, and Chris Volinsky, 2009)
+* Clustering methods are also applicable for picking representative values for recommendation such as k-means and spectral clustering. Especially, there was a trial that used spectral clustering to improve vulnerability of collaborative filtering. (Zhang, Zhuo, and Sanjeev R. Kulkarni, 2014)
+* Graph representation also has contributed to recommendation system. Link analysis and prediction also has contributed to recommendation system, to solve data sparsity problem. (Chen, Hsinchun, Xin Li, and Zan Huan, 2005) 
 
 
 ## Tools
@@ -36,6 +42,17 @@ scikit-surprise, scikit-learn
 
 ### Web Application
 ReactJS
+
+## How to Use the Web
+### Step 1.
+![This is a alt text.](/images/structure.png "step1")
+
+### Step 2.
+![This is a alt text.](/images/structure.png "step2")
+
+
+### Step 3.
+![This is a alt text.](/images/structure.png "step3")
 
 
 ## Result 
