@@ -45,7 +45,7 @@ ReactJS
 
 ## How to Use the Web
 ### Step 1.
-![This is a alt text.](/images/structure.png "step1")
+![This is a alt text.](/images/Step 1- Browse and rate some beers.jpg "step1")
 
 ### Step 2.
 ![This is a alt text.](/images/structure.png "step2")
